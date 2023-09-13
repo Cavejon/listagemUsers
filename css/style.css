@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,100;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.btn{
+    border: none;
+    background-color: #8ecae6;
+    color: #1c688b;
+}
+
+.btn:hover{
+    background-color: #10455e;
+    color: white;
+}
+
+.card-img-top{
+    background: transparent;
+}
+.card{
+    border: 1px solid #10455e;
+    
+}
