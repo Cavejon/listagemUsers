@@ -65,7 +65,7 @@ include_once("conexao.php");
                 echo "<li class='list-group-item' style='height:4rem'>E-mail: " . $row_usuario['email'] . "</li>";
                 echo "<div class='d-flex justify-content-center'>";
                 echo "<a  href='edit_usuario.php?id=". $row_usuario['id']." ' class='text-decoration-none text-center p-2 text-danger'>Editar</a>";
-                echo "<a  href='proc_apagar_usuario?id=". $row_usuario['id'] ." ' class='text-decoration-none text-center p-2 text-danger'>Apagar</a>";
+                echo "<a  href='proc_apagar_usuario.php?id=". $row_usuario['id'] ." ' class='text-decoration-none text-center p-2 text-danger'>Apagar</a>";
                 echo "</div>";
             echo "</ul>";
         echo "</div>";
